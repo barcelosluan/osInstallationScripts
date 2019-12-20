@@ -1,5 +1,5 @@
 # Install Script for Fedora
-> Made By: donLouan in 20-12-2019
+> Made By: barcelosluan in 20-12-2019
 
 ### Instalação
 
