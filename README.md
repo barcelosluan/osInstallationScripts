@@ -29,7 +29,7 @@
 		1. Execute a instalação do driver nVidia Optimus SEM o comando sudo ```./fedoraNVidiaOptimusDriver.sh```
 3. Execute a instalação dos programas essenciais ```./fedoraPackages.sh``` :computer:
 4. Faça o download dos aplicativos restantes :arrow_down:
-	1. Fontes Microsoft - [mscorefonts2](https://sourceforge.net/projects/mscorefonts2/files/rpms-msttcore-fonts-installer-2.6-1.noarch.rpm/download?use_mirror=ufpr)
+	1. Fontes Microsoft - [mscorefonts2](https://sourceforge.net/projects/mscorefonts2/files/)
 	2. [OpenJDK 13 - LTS](https://jdk.java.net/13/)
 	3. [Eclipse](https://www.eclipse.org/downloads/)
 	4. [TeamViewer](https://www.teamviewer.com/pt-br/download/linux/)
