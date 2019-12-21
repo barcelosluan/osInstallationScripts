@@ -94,9 +94,15 @@
 	5. [No Topleft Hot Corner](https://extensions.gnome.org/extension/118/no-topleft-hot-corner/)
 	6. [Openweather](https://extensions.gnome.org/extension/750/openweather/)
 	7. [Places Status Indicator](https://extensions.gnome.org/extension/8/places-status-indicator/)
-6. Adicione os icones [delft](https://www.gnome-look.org/p/1199881/) ou [obsidian](https://www.gnome-look.org/p/1169579/) :triangular_flag_on_post:
+6. Altere/Adicione atalhos do teclado pesquisando por `teclado` no menu do sistema
+	1. `CTRL+SHIFT+ESC` = `gnome-system-monitor`
+	2. `CTRL+ALT+T` = `gnome-terminal`
+	3. `SUPER+E` = `nautilus`
+	4. `ALT+TAB` = Alterar Janelas
+	5. `SUPER+D` = Ocultar todas as janelas normais
+7. Adicione os icones [delft](https://www.gnome-look.org/p/1199881/) ou [obsidian](https://www.gnome-look.org/p/1169579/) :triangular_flag_on_post:
 	1. Extrair o pacote de icones
 	2. Adicionar os icones à `/local/share/icons`
-7. Adicione a foto do perfil :octocat:
-8. Adicione o plano de fundo e imagem da tela de bloqueio :city_sunset:
-9. __Divirta-se :smiley:__
+8. Adicione a foto do perfil :octocat:
+9. Adicione o plano de fundo e imagem da tela de bloqueio :city_sunset:
+10. __Divirta-se :smiley:__
