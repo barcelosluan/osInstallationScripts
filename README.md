@@ -103,6 +103,10 @@
 7. Adicione os icones [delft](https://www.gnome-look.org/p/1199881/) ou [obsidian](https://www.gnome-look.org/p/1169579/) :triangular_flag_on_post:
 	1. Extrair o pacote de icones
 	2. Adicionar os icones à `/local/share/icons`
-8. Adicione a foto do perfil :octocat:
-9. Adicione o plano de fundo e imagem da tela de bloqueio :city_sunset:
-10. __Divirta-se :smiley:__
+8. Configure o terminal para ficar mais legivel :shell:
+	1. Entre no site [bashrcgenerator](http://bashrcgenerator.com/) e crie um esquema a seu gosto
+		* Exemplo de bash personalizado:
+	```
+	export PS1="\n\n\n\[$(tput bold)\]\[$(tput sgr0)\]\[\033[38;5;33m\]\d\[$(tput sgr0)\]\[$(tput sgr0)\]\[\033[38;5;15m\] \[$(tput bold)\]\[$(tput sgr0)\]\[\033[38;5;14m\][\T]\[$(tput sgr0)\]\[$(tput sgr0)\]\[\033[38;5;15m\]\n\[$(tput bold)\][\[$(tput sgr0)\]\[\033[38;5;9m\]\u\[$(tput sgr0)\]\[\033[38;5;15m\]@\[$(tput sgr0)\]\[\033[38;5;221m\]\h\[$(tput sgr0)\]\[$(tput sgr0)\]\[\033[38;5;15m\] \[$(tput bold)\]\[$(tput sgr0)\]\[\033[38;5;39m\]\w\[$(tput sgr0)\]\[\033[38;5;15m\]]\[$(tput sgr0)\]\n\[$(tput bold)\]\[$(tput sgr0)\]\[\033[38;5;10m\]\\$\[$(tput sgr0)\]\[$(tput sgr0)\]\[\033[38;5;15m\] \[$(tput sgr0)\]"
+	```
+9. __Divirta-se :smiley:__
