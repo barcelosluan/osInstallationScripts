@@ -27,8 +27,9 @@
 			* Quando o gedit abrir, adicione `rd.driver.blacklist=nouveau` ao final da linha `GRUB_CMDLINE_LINUX="…"`
 		3. O computador irá reiniciar no modo linha de comando, faça o login com o usuário padrão
 		4. Execute a segunda parte da instalação do driver nVidia SEM o comando sudo `./fedoraNVidiaDriver-Part-II.sh`
-		5. Os scripts serão automaticamente apagados, caso tenham sido colocados nos locais corretos
-		6. O computador irá reiniciar
+		5. Aceite todos os passos da instalação
+		6. Os scripts serão automaticamente apagados, caso tenham sido colocados nos locais corretos
+		7. O computador irá reiniciar
 	2. Placa hibrida (nVidia + intel)
 		1. Execute a instalação do driver nVidia Optimus SEM o comando sudo `./fedoraNVidiaOptimusDriver.sh`
 3. Execute a instalação dos programas essenciais `./fedoraPackages.sh` :computer:
@@ -65,6 +66,25 @@
 			```
 		10. `reboot`
 	3. [Eclipse](https://www.eclipse.org/downloads/)
+		1. Crie uma pasta `Workspaces/Java` na `$HOME`
+		2. Crie uma pasta `Eclipse` na `$HOME/Aplicativos`
+		3. Baixe o Eclipse
+		4. Extraia o arquivo baixado
+		5. Execute o arquivo `./eclipse-inst-linux64/eclipse-installer/eclipse-inst`
+		6. Selecione `Eclipse IDE for Java Developers`
+		7. Em `Java 1.8+ VM` selecione o `./*jdk-13 (Current)`
+		8. Em `Installation Folder` selecione `$HOME/Aplicativos/Eclipse`
+		9. Clique em `Install` e aceite os termos e por fim em `Launch`
+		10. Selecione a `$HOME/Workspace/Java` como diretório padrão dos projetos
+		10. Para criar o atalho de inicialização, é necessário ter o aplicativo `alacarte` (Menu Principal/Main Menu)
+			* Abra o `alacarte`
+			* Na aba `Desenvolvimento`, adicione um `Novo Item`
+				```
+				Nome: Eclipse
+				Command: `$HOME/Aplicativos/Eclipse/eclipse/eclipse`
+				Comment: Eclipse IDE
+				Clique no quadrado em branco para adicionar um ícone e selecione `$HOME/Aplicativos/Eclipse/eclipse/icon.xpm`
+				```
 	4. [TeamViewer](https://www.teamviewer.com/pt-br/download/linux/)
 5. Faça o download das extenções do gnome :arrow_down:
 	1. [Applications Menu](https://extensions.gnome.org/extension/6/applications-menu/)
