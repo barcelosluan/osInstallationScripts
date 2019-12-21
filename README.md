@@ -22,7 +22,7 @@
 1. Leia todo o documento e os scripts (se necessário atualize!) :memo:
 2. Instale o driver nVidia :floppy_disk:
 	1. Placa única
-		1. Copie todos os scripts necessários para a pasta home
+		1. Copie todos os scripts necessários para `$HOME`
 		2. Execute a primeira parte da instalação do driver nVidia SEM o comando sudo `./fedoraNVidiaDriver-Part-I.sh`
 			* Quando o gedit abrir, adicione `rd.driver.blacklist=nouveau` ao final da linha `GRUB_CMDLINE_LINUX="…"`
 		3. O computador irá reiniciar no modo linha de comando, faça o login com o usuário padrão
@@ -35,7 +35,7 @@
 4. Faça o download dos aplicativos restantes :arrow_down:
 	1. Fontes Microsoft - [mscorefonts2](https://sourceforge.net/projects/mscorefonts2/files/)
 	2. [OpenJDK 13 - LTS](https://jdk.java.net/13/)
-		1. Crie uma pasta `Aplicativos/Java` na home
+		1. Crie uma pasta `Aplicativos/Java` na `$HOME`
 		2. Baixe o openjdk
 		3. Mova o `openjdk-*.tar.gz` para a pasta `Aplicativos/Java`
 		4. Descompacte o arquivo
@@ -59,6 +59,11 @@
 			sudo update-alternatives --set javac "$HOME/Aplicativos/Java/jdk-13/bin/javac" 1
 			sudo update-alternatives --set javaws.itweb "$HOME/Aplicativos/Java/jdk-13/bin/javaws.itweb" 1
 			```
+		9. Recarregue o `$PATH`
+			```
+			source /etc/profile
+			```
+		10. `reboot`
 	3. [Eclipse](https://www.eclipse.org/downloads/)
 	4. [TeamViewer](https://www.teamviewer.com/pt-br/download/linux/)
 5. Faça o download das extenções do gnome :arrow_down:
