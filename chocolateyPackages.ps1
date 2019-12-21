@@ -1,3 +1,14 @@
+echo ""
+echo ""
+echo ""
+echo "Fedora nVidia Driver Install-Part-I"
+echo "Updated 20-12-2019"
+echo "Enjoy the script"
+echo "Made by: barcelosluan"
+echo ""
+echo ""
+echo ""
+
 # Chocolatey install
 Set-ExecutionPolicy AllSigned
 Get-ExecutionPolicy
