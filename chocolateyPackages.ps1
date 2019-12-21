@@ -1,7 +1,7 @@
 echo ""
 echo ""
 echo ""
-echo "Fedora nVidia Driver Install-Part-I"
+echo "Windows Installation Utility"
 echo "Updated 20-12-2019"
 echo "Enjoy the script"
 echo "Made by: barcelosluan"
