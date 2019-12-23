@@ -39,6 +39,7 @@ sudo dnf install -y transmission transmission-daemon
 
 sudo snap install brackets --classic
 sudo snap install gitkraken
+sudo snap install intellij-idea-community --classic
 sudo dnf install -y mariadb-server
 sudo dnf install -y nginx
 sudo snap install code --classic
