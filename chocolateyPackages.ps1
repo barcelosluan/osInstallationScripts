@@ -36,6 +36,8 @@ choco install -y transmission
 choco install -y oldcalc
 
 # Development
+
+choco install -y androidstudio
 choco install -y brackets
 choco install -y cmder
 choco install -y git
