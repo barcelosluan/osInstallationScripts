@@ -40,6 +40,7 @@ choco install -y brackets
 choco install -y cmder
 choco install -y git
 choco install -y gitkraken
+choco install -y intellijidea-community
 choco install -y mariadb
 choco install -y mysql.workbench
 choco install -y nginx --params '"/installLocation:C:\Program Files /port:433"'
