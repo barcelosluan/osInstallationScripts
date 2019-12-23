@@ -37,6 +37,7 @@ sudo dnf install -y transmission transmission-daemon
 
 # Development
 
+sudo snap install android-studio --classic
 sudo snap install brackets --classic
 sudo snap install gitkraken
 sudo snap install intellij-idea-community --classic
