@@ -29,6 +29,14 @@ sudo dnf install -y google-chrome-stable
 sudo dnf install -y alacarte
 sudo snap install gimp
 sudo dnf install -y gnome-tweak-tool
+sudo dnf install -y gnome-tweak-tool
+sudo dnf install -y gstreamer1-plugins-base
+sudo dnf install -y gstreamer1-plugins-good
+sudo dnf install -y gstreamer1-plugins-ugly
+sudo dnf install -y gstreamer1-plugins-bad-free
+sudo dnf install -y gstreamer1-plugins-bad-freeworld
+sudo dnf install -y gstreamer1-plugins-bad-free-extras
+sudo dnf install -y ffmpeg
 sudo snap install inkscape
 sudo snap install vlc
 sudo snap install spotify
