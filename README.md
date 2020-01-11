@@ -86,6 +86,7 @@
 				Clique no quadrado em branco para adicionar um ícone e selecione `$HOME/Aplicativos/Eclipse/eclipse/icon.xpm`
 				```
 	4. [TeamViewer](https://www.teamviewer.com/pt-br/download/linux/)
+	5. [Mathcha](https://www.mathcha.io/notebook/)
 5. Faça o download das extenções do gnome :arrow_down:
 	1. [Applications Menu](https://extensions.gnome.org/extension/6/applications-menu/)
 	2. [Dash to Dock](https://extensions.gnome.org/extension/307/dash-to-dock/)
