@@ -85,7 +85,14 @@
 				Comment: Eclipse IDE
 				Clique no quadrado em branco para adicionar um ícone e selecione `$HOME/Aplicativos/Eclipse/eclipse/icon.xpm`
 				```
-	4. [TeamViewer](https://www.teamviewer.com/pt-br/download/linux/)
+	4. [JetBrains Toolbox App](https://www.jetbrains.com/toolbox-app/)
+	5. [TeamViewer](https://www.teamviewer.com/pt-br/download/linux/)
+	6. [Opera](https://download.opera.com/download/get/?partner=www&opsys=Linux&package=RPM)
+		1. Pode ser necessário instalar a versão mais recente da ffmpeg compativel para liberar a visualização de videos e gifs.
+			1. Acesse a pasta de instalação do Opera `/usr/lib64/opera`
+			2. Faça o backup do `libffmpeg.so`
+			3. Baixe, extraia e adicione na pasta do Opera o novo `libffmpeg.so` do [site](https://repo.herecura.eu/herecura/)
+	7. [Genymotion](https://www.genymotion.com/fun-zone/)
 5. Faça o download das extenções do gnome :arrow_down:
 	1. [Applications Menu](https://extensions.gnome.org/extension/6/applications-menu/)
 	2. [Dash to Dock](https://extensions.gnome.org/extension/307/dash-to-dock/)
