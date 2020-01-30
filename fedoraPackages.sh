@@ -23,7 +23,7 @@ sudo ln -s /var/lib/snapd/snap /snap
 sudo snap wait system seed.loaded
 
 # Browsers
-sudo dnf install -y google-chrome-stable
+#sudo dnf install -y google-chrome-stable
 
 # Utils
 sudo dnf install -y alacarte
@@ -44,13 +44,14 @@ sudo dnf install -y transmission transmission-daemon
 
 # Development
 
-sudo snap install android-studio --classic
-sudo snap install brackets --classic
+#sudo snap install android-studio --classic
+flatpak install flathub io.brackets.Brackets
 sudo snap install gitkraken
-sudo snap install intellij-idea-community --classic
+#sudo snap install intellij-idea-community --classic
 sudo dnf install -y mariadb-server
 sudo dnf install -y nginx
 sudo snap install code --classic
+sudo dnf install VirtualBox -y
 
 # Remove unecessary packages
 sudo dnf remove -y cheese
