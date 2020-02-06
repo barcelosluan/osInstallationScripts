@@ -34,7 +34,11 @@
 		1. Execute a instalação do driver nVidia Optimus SEM o comando sudo `./fedoraNVidiaOptimusDriver.sh`
 3. Execute a instalação dos programas essenciais `./fedoraPackages.sh` :computer:
 4. Faça o download dos aplicativos restantes :arrow_down:
-	1. Fontes Microsoft - [mscorefonts2](https://sourceforge.net/projects/mscorefonts2/files/)
+	1. Fontes:
+		1. Microsoft - [mscorefonts2](https://sourceforge.net/projects/mscorefonts2/files/)
+		2. A Little Sunshine
+		3. Angel Signature
+		4. Orange Blossoms
 	2. [OpenJDK 13 - LTS](https://jdk.java.net/13/)
 		1. Crie uma pasta `Aplicativos/Java` na `$HOME`
 		2. Baixe o openjdk
