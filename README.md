@@ -39,6 +39,10 @@
 		2. A Little Sunshine
 		3. Angel Signature
 		4. Orange Blossoms
+		5. Callina
+		6. Great Wishes
+		7. Honey Script
+		8. Soul of You
 	2. [OpenJDK 13 - LTS](https://jdk.java.net/13/)
 		1. Crie uma pasta `Aplicativos/Java` na `$HOME`
 		2. Baixe o openjdk
