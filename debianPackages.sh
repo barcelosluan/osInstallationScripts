@@ -45,7 +45,7 @@ sudo apt install steam -y
 
 # Development
 # sudo snap install android-studio --classic
-sudo snap install brackets --classic
+# sudo snap install brackets --classic
 # sudo snap install gitkraken
 # sudo snap install intellij-idea-community --classic
 # sudo apt install mariadb-server -y
