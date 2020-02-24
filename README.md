@@ -35,14 +35,13 @@
 3. Execute a instalação dos programas essenciais `./fedoraPackages.sh` :computer:
 4. Faça o download dos aplicativos restantes :arrow_down:
 	1. Fontes:
-		1. [Microsoft - mscorefonts2](https://sourceforge.net/projects/mscorefonts2/files/)
-		2. [A Little Sunshine](https://www.dafont.com/pt/a-little-sunshine.font)
-		3. [Angel Signature](https://www.dafont.com/angel-signature.font)
-		4. [Orange Blossoms](https://www.dafont.com/orange-blossoms.font)
-		5. [Callina](https://www.dafont.com/callina.font)
-		6. [Great Wishes](https://www.dafont.com/great-wishes.font)
-		7. [Honey Script](https://www.dafont.com/pt/honey-script.font)
-		8. [Soul of You](https://www.dafont.com/pt/soul-of-you.font)
+		1. [A Little Sunshine](https://www.dafont.com/pt/a-little-sunshine.font)
+		2. [Angel Signature](https://www.dafont.com/angel-signature.font)
+		3. [Orange Blossoms](https://www.dafont.com/orange-blossoms.font)
+		4. [Callina](https://www.dafont.com/callina.font)
+		5. [Great Wishes](https://www.dafont.com/great-wishes.font)
+		6. [Honey Script](https://www.dafont.com/pt/honey-script.font)
+		7. [Soul of You](https://www.dafont.com/pt/soul-of-you.font)
 	2. [OpenJDK 13 - LTS](https://jdk.java.net/13/)
 		1. Crie uma pasta `Aplicativos/Java` na `$HOME`
 		2. Baixe o openjdk
