@@ -203,13 +203,12 @@
 		1. Pode ser necessário instalar a versão mais recente da ffmpeg compativel para liberar a visualização de videos e gifs.
 	7. [Genymotion](https://www.genymotion.com/fun-zone/)
 4. Faça o download das extenções do gnome :arrow_down:
-	1. [Applications Menu](https://extensions.gnome.org/extension/6/applications-menu/)
+	1. [Appfolders Management](https://extensions.gnome.org/extension/1217/appfolders-manager/)
 	2. [Dash to Dock](https://extensions.gnome.org/extension/307/dash-to-dock/)
 	3. [Hide Activities Button](https://extensions.gnome.org/extension/744/hide-activities-button/)
 	4. [More Columns in Applications View](https://extensions.gnome.org/extension/1305/more-columns-in-applications-view/)
 	5. [No Topleft Hot Corner](https://extensions.gnome.org/extension/118/no-topleft-hot-corner/)
 	6. [Openweather](https://extensions.gnome.org/extension/750/openweather/)
-	7. [Places Status Indicator](https://extensions.gnome.org/extension/8/places-status-indicator/)
 5. Altere/Adicione atalhos do teclado pesquisando por `teclado` no menu do sistema
 	1. `CTRL+SHIFT+ESC` = `gnome-system-monitor`
 	2. `CTRL+ALT+T` = `gnome-terminal`
