@@ -159,29 +159,22 @@
 		2. Baixe o openjdk
 		3. Mova o `openjdk-*.tar.gz` para a pasta `Aplicativos/Java`
 		4. Descompacte o arquivo
-		5. Mova a pasta `jdk-13*` para a pasta anterior e renomeie para apenas `jdk-13`
-		6. Edite o arquivo `/etc/profile` como usuario root e adicione ao final do arquivo
+		5. Mova a pasta `jdk-13*` para a pasta anterior
+		6. Inclua o novo java no sistema
 			```
-			JAVA_HOME=$HOME/Aplicativos/Java/jdk-13
-			PATH=$PATH:$JAVA_HOME/bin
-			export JAVA_HOME
-			export PATH
+			sudo tee /etc/profile.d/jdk-13.0.2.sh <<EOF
+			export JAVA_HOME=/home/barcelosluan/Aplicativos/Java/jdk-13.0.2
+			export PATH=\$PATH:\$JAVA_HOME/bin
+			EOF
 			```
-		7. Inclua o novo java no sistema
+		8. Recarregue o `$PATH`
 			```
-			sudo update-alternatives --install "/usr/bin/java" "java" "$HOME/Aplicativos/Java/jdk-13/bin/java" 1
-			sudo update-alternatives --install "/usr/bin/javac" "javac" "$HOME/Aplicativos/Java/jdk-13/bin/javac" 1
-			sudo update-alternatives --install "/usr/bin/javaws.itweb" "javaws.itweb" "$HOME/Aplicativos/Java/jdk-13/bin/javaws.itweb" 1
+			source /etc/profile.d/jdk-13.0.2.sh
 			```
-		8. Marque o novo java como principal
+		9. Confirme que a instalação ocorreu com sucesso
 			```
-			sudo update-alternatives --set java "$HOME/Aplicativos/Java/jdk-13/bin/java" 1
-			sudo update-alternatives --set javac "$HOME/Aplicativos/Java/jdk-13/bin/javac" 1
-			sudo update-alternatives --set javaws.itweb "$HOME/Aplicativos/Java/jdk-13/bin/javaws.itweb" 1
-			```
-		9. Recarregue o `$PATH`
-			```
-			source /etc/profile
+			echo $JAVA_HOME
+			java -version
 			```
 		10. `reboot`
 	3. [Eclipse](https://www.eclipse.org/downloads/)
