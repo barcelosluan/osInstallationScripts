@@ -1,13 +1,13 @@
 #!/bin/bash
 echo ""
-echo "##############################"
-echo "#                            #"
-echo "# Debian fresh start install #"
-echo "#    Made by: barcelosluan   #"
-echo "#     Updated 24-02-2020     #"
-echo "#      Enjoy the script      #"
-echo "#                            #"
-echo "##############################"
+echo "####################################"
+echo "#                                  #"
+echo "#    Debian fresh start install    #"
+echo "#       Made by: barcelosluan      #"
+echo "#        Updated 24-02-2020        #"
+echo "#         Enjoy the script         #"
+echo "#                                  #"
+echo "####################################"
 echo ""
 
 # Updating Sys
@@ -51,7 +51,7 @@ sudo apt install steam -y
 # sudo apt install mariadb-server -y
 # sudo dnf install -y nginx
 sudo snap install code --classic
-sudo apt install virt-manager -y
+# sudo apt install virt-manager -y
 
 # Remove unecessary packages
 
