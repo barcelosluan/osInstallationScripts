@@ -201,7 +201,8 @@
 	5. [TeamViewer](https://www.teamviewer.com/pt-br/download/linux/)
 	6. Opera
 		1. Pode ser necessário instalar a versão mais recente da ffmpeg compativel para liberar a visualização de videos e gifs.
-	7. [Genymotion](https://www.genymotion.com/fun-zone/)
+	7. [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
+	8. [Genymotion](https://www.genymotion.com/fun-zone/)
 4. Faça o download das extenções do gnome :arrow_down:
 	1. [Appfolders Management](https://extensions.gnome.org/extension/1217/appfolders-manager/)
 	2. [Dash to Dock](https://extensions.gnome.org/extension/307/dash-to-dock/)
