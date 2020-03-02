@@ -220,27 +220,37 @@
 	9. [Genymotion](https://www.genymotion.com/fun-zone/)
 4. Faça o download das extenções do gnome :arrow_down:
 	1. [Appfolders Management](https://extensions.gnome.org/extension/1217/appfolders-manager/)
-	2. [Dash to Dock](https://extensions.gnome.org/extension/307/dash-to-dock/)
-	3. [Hide Activities Button](https://extensions.gnome.org/extension/744/hide-activities-button/)
-	4. [More Columns in Applications View](https://extensions.gnome.org/extension/1305/more-columns-in-applications-view/)
-	5. [No Topleft Hot Corner](https://extensions.gnome.org/extension/118/no-topleft-hot-corner/)
-	6. [Openweather](https://extensions.gnome.org/extension/750/openweather/)
-5. Altere/Adicione atalhos do teclado pesquisando por `teclado` no menu do sistema
+		* Organize os aplicativos da view em pastas a gosto
+	2. [Clipboard Indicator](https://extensions.gnome.org/extension/779/clipboard-indicator/)
+	3. [Dash to Dock](https://extensions.gnome.org/extension/307/dash-to-dock/)
+	4. [Hide Activities Button](https://extensions.gnome.org/extension/744/hide-activities-button/)
+	5. [Hide Frequent View](https://extensions.gnome.org/extension/1367/hide-frequent-view/)
+	6. [More Columns in Applications View](https://extensions.gnome.org/extension/1305/more-columns-in-applications-view/)
+	7. [No Topleft Hot Corner](https://extensions.gnome.org/extension/118/no-topleft-hot-corner/)
+	8. [Openweather](https://extensions.gnome.org/extension/750/openweather/)
+5. Adicione WebApps com o `Gnome Web (epiphany-browser)` e atualize o icone com o `Menu Principal (alacarte)`
+	1. [MS Excel](https://www.office.com/launch/excel?auth=1)
+	2. [MS OneNote](https://www.onenote.com/notebooks?auth=1)
+	3. [MS PowerPoint](https://www.office.com/launch/powerpoint?auth=1)
+	4. [MS Word](https://www.office.com/launch/word?auth=1)
+	5. [Notion](https://www.notion.so/onboarding)
+	6. [WhatsApp Web](https://web.whatsapp.com/)
+6. Altere/Adicione atalhos do teclado pesquisando por `teclado` no menu do sistema
 	1. `CTRL+SHIFT+ESC` = `gnome-system-monitor`
 	2. `CTRL+ALT+T` = `gnome-terminal`
 	3. `SUPER+E` = `nautilus`
 	4. `ALT+TAB` = Alterar Janelas
 	5. `SUPER+D` = Ocultar todas as janelas normais
-6. Adicione os icones [delft](https://www.gnome-look.org/p/1199881/) ou [obsidian](https://www.gnome-look.org/p/1169579/) :triangular_flag_on_post:
+7. Adicione os icones [delft](https://www.gnome-look.org/p/1199881/) ou [obsidian](https://www.gnome-look.org/p/1169579/) :triangular_flag_on_post:
 	1. Extrair o pacote de icones
 	2. Adicionar os icones à `/local/share/icons`
-7. Configure o terminal para ficar mais legivel :shell:
+8. Configure o terminal para ficar mais legivel :shell:
 	1. Entre no site [bashrcgenerator](http://bashrcgenerator.com/) e crie um esquema a seu gosto
 		* Exemplo de bash personalizado:
 	```
 	export PS1="[$(tput bold)\]\[$(tput sgr0)\]\[\033[38;5;33m\]\d\[$(tput sgr0)\]\[$(tput sgr0)\]\[\033[38;5;15m\] \[$(tput bold)\]\[$(tput sgr0)\]\[\033[38;5;14m\][\T]\[$(tput sgr0)\]\[$(tput sgr0)\]\[\033[38;5;15m\]\n\[$(tput bold)\][\[$(tput sgr0)\]\[\033[38;5;9m\]\u\[$(tput sgr0)\]\[\033[38;5;15m\]@\[$(tput sgr0)\]\[\033[38;5;221m\]\h\[$(tput sgr0)\]\[$(tput sgr0)\]\[\033[38;5;15m\] \[$(tput bold)\]\[$(tput sgr0)\]\[\033[38;5;39m\]\w\[$(tput sgr0)\]\[\033[38;5;15m\]]\[$(tput sgr0)\]\n\[$(tput bold)\]\[$(tput sgr0)\]\[\033[38;5;10m\]\\$\[$(tput sgr0)\]\[$(tput sgr0)\]\[\033[38;5;15m\] \[$(tput sgr0)\]"
 	```
 	![](exemploBash.jpeg)
-8. __Divirta-se :smiley:__
+9. __Divirta-se :smiley:__
 
 ---
