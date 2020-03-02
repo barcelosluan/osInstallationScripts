@@ -228,14 +228,14 @@
 	6. [More Columns in Applications View](https://extensions.gnome.org/extension/1305/more-columns-in-applications-view/)
 	7. [No Topleft Hot Corner](https://extensions.gnome.org/extension/118/no-topleft-hot-corner/)
 	8. [Openweather](https://extensions.gnome.org/extension/750/openweather/)
-5. Adicione WebApps com o `Gnome Web (epiphany-browser)` e atualize o icone com o `Menu Principal (alacarte)`
+5. Adicione WebApps com o `Gnome Web` (epiphany-browser) e atualize o icone com o `Menu Principal` (alacarte) :globe_with_meridians:
 	1. [MS Excel](https://www.office.com/launch/excel?auth=1)
 	2. [MS OneNote](https://www.onenote.com/notebooks?auth=1)
 	3. [MS PowerPoint](https://www.office.com/launch/powerpoint?auth=1)
 	4. [MS Word](https://www.office.com/launch/word?auth=1)
 	5. [Notion](https://www.notion.so/onboarding)
 	6. [WhatsApp Web](https://web.whatsapp.com/)
-6. Altere/Adicione atalhos do teclado pesquisando por `teclado` no menu do sistema
+6. Altere/Adicione atalhos do teclado pesquisando por `teclado` no menu do sistema :keyboard:
 	1. `CTRL+SHIFT+ESC` = `gnome-system-monitor`
 	2. `CTRL+ALT+T` = `gnome-terminal`
 	3. `SUPER+E` = `nautilus`
