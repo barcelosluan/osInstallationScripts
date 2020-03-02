@@ -32,6 +32,7 @@ sudo apt install nvidia-vulkan-icd:i386 -y
 sudo apt install snapd -y
 
 # Browsers
+sudo apt install epiphany-browser -y
 sudo snap install firefox
 
 # Utils
@@ -52,7 +53,6 @@ sudo apt install git
 # sudo apt install mariadb-server -y
 # sudo dnf install -y nginx
 sudo snap install code --classic
-# sudo apt install virt-manager -y
 
 # Remove unecessary packages
-
+sudo apt auto-remove -y
