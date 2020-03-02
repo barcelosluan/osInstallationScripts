@@ -16,11 +16,11 @@ sudo apt full-upgrade -y
 
 # ADD 'contrib non-free' Repository
 sudo nano /etc/apt/sources.list
-sudo apt update
+sudo apt update -y
 
 # Enable multi-arch
 sudo dpkg --add-architecture i386
-sudo apt update
+sudo apt update -y
 
 # Nvidia & Vulkan
 sudo apt install nvidia-driver -y
