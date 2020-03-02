@@ -13,7 +13,7 @@
 
 ---
 
-### Fedora
+### [Fedora](https://github.com/barcelosluan/installScripts/blob/master/fedora_README.md)
 	fedoraNVidiaDriver-Part-I.sh
 	fedoraNVidiaDriver-Part-II.sh
 	fedoraNVidiaOptimusDriver.sh
