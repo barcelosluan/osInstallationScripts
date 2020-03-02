@@ -188,7 +188,7 @@
 		8. Em `Installation Folder` selecione `$HOME/Aplicativos/Eclipse`
 		9. Clique em `Install` e aceite os termos e por fim em `Launch`
 		10. Selecione a `$HOME/Workspace/Java` como diretório padrão dos projetos
-		10. Para criar o atalho de inicialização, é necessário ter o aplicativo `alacarte` (Menu Principal/Main Menu)
+		11. Para criar o atalho de inicialização, é necessário ter o aplicativo `alacarte` (Menu Principal/Main Menu)
 			* Abra o `alacarte`
 			* Na aba `Desenvolvimento`, adicione um `Novo Item`
 				```
@@ -198,11 +198,26 @@
 				Clique no quadrado em branco para adicionar um ícone e selecione `$HOME/Aplicativos/Eclipse/eclipse/icon.xpm`
 				```
 	4. [JetBrains Toolbox App](https://www.jetbrains.com/toolbox-app/)
-	5. [TeamViewer](https://www.teamviewer.com/pt-br/download/linux/)
-	6. Opera
+	5. [Node.JS LTS](https://nodejs.org/en/download/)
+		1. Baixe os Binários
+		2. Descompacte na pasta que deseja instalar `/home/$USER/Aplicativos/NodeJS/*`
+			```
+			mkdir -p /home/$USER/Aplicativos/NodeJS
+			tar -xJvf node-$VERSION-$DISTRO.tar.xz -C /home/$USER/Aplicativos/NodeJS
+			```
+		3. Adicione o Node.JS no `$PATH`
+			```
+			sudo nano ~/.profile
+			
+			# Nodejs
+			export PATH=/home/barcelosluan/Aplicativos/NodeJS/*/bin:$PATH
+			```
+		4. Recarregue o `.profile` com o comando `. ~/.profile`
+	6. [TeamViewer](https://www.teamviewer.com/pt-br/download/linux/)
+	7. Opera
 		1. Pode ser necessário instalar a versão mais recente da ffmpeg compativel para liberar a visualização de videos e gifs.
-	7. [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
-	8. [Genymotion](https://www.genymotion.com/fun-zone/)
+	8. [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
+	9. [Genymotion](https://www.genymotion.com/fun-zone/)
 4. Faça o download das extenções do gnome :arrow_down:
 	1. [Appfolders Management](https://extensions.gnome.org/extension/1217/appfolders-manager/)
 	2. [Dash to Dock](https://extensions.gnome.org/extension/307/dash-to-dock/)
