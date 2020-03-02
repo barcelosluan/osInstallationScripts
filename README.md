@@ -210,7 +210,7 @@
 			sudo nano ~/.profile
 			
 			# Nodejs
-			export PATH=/home/$USER/Aplicativos/NodeJS/*/bin:$PATH
+			export PATH=$PATH:/home/$USER/Aplicativos/NodeJS/*/bin:$PATH
 			```
 		4. Recarregue o `.profile` com o comando `. ~/.profile`
 	6. [TeamViewer](https://www.teamviewer.com/pt-br/download/linux/)
