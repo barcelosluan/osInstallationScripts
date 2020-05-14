@@ -3,7 +3,7 @@
 
 ---
 
-### [Debian 10 :tornado:](./debian/debian_README.md)
+### [Debian 10 :tornado:](./debian_10/debian_README.md)
 	
 	debianPackages.sh
 
@@ -24,7 +24,7 @@
 
 ---
 
-### [Windows 10 :framed_picture:](./windows/windows_README.md)
+### [Windows 10 :framed_picture:](./windows_10/windows_README.md)
 	
 	chocolateyPackages.ps1
 
