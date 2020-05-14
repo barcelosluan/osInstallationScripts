@@ -3,7 +3,7 @@
 
 ---
 
-### Windows :framed_picture:
+### [Windows :framed_picture:](./windows/windows_README.md)
 	
 	chocolateyPackages.ps1
 
@@ -14,20 +14,20 @@
 
 ---
 
-### [Ubuntu -WIP- :cyclone:](https://github.com/barcelosluan/installScripts/blob/master/ubuntu_README.md)
+### [Ubuntu -WIP- :cyclone:](./ubuntu_20.04/ubuntu_README.md)
     
     ubuntuPackages.sh
 
 
 ---
 
-### [Debian :tornado:](https://github.com/barcelosluan/installScripts/blob/master/debian_README.md)
+### [Debian :tornado:](./debian/debian_README.md)
 	
 	debianPackages.sh
 
 ---
 
-### [Fedora :tophat:](https://github.com/barcelosluan/installScripts/blob/master/fedora_README.md)
+### [Fedora :tophat:](./fedora_31/fedora_README.md)
 	
 	fedoraNVidiaDriver-Part-I.sh
 	fedoraNVidiaDriver-Part-II.sh
