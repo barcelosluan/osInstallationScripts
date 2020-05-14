@@ -1,5 +1,5 @@
 # Script de Instalação
-> Made By: barcelosluan on 14-05-2020
+> Made By: barcelosluan
 
 ---
 
