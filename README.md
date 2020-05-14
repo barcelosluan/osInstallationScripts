@@ -9,7 +9,7 @@
 
 ---
 
-### [Ubuntu 20.04 -WIP- :cyclone:](./ubuntu_20.04/ubuntu_README.md)
+### [Ubuntu 20.04 :cyclone:](./ubuntu_20.04/ubuntu_README.md)
     
     ubuntuPackages.sh
 
