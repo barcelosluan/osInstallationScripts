@@ -1,0 +1,72 @@
+Alguns aplicativos, como o aplicativo Dinheiro, podem ser removidos diretamente do menu iniciar ao clicar com o botão direito do mouse e escolher Desinstalar.
+
+Imagem
+
+Já outros – como o aplicativo Xbox ou o Email – só podem ser removidos com o Powershell. O Powershell é uma framework de configuração e gerenciamento da Microsoft. Ela é voltada para usuários avançados e permite a configuração ou aplicação de tarefas administrativas dentro do sistema operacional.
+
+Atenção: É necessário estar conectado com uma conta com direitos de Administrador para efetuar qualquer procedimento no Powershell. Caso não esteja, faça-o.
+
+Para acessá-la, vá na busca do Windows, digite Powershell
+
+Imagem
+
+Alternativamente, você pode usar o executar (Windows+R) e digitar powershell.
+
+Imagem
+
+Após aberto, você deverá adicionar uma linha de comando que funciona da seguinte forma: Get-AppxPackage Nome do App | Remove-AppxPackage
+
+Ou seja, para remover o aplicativo Notícias, é preciso digitar: Get-AppxPackage *bingnews* | Remove-AppxPackage. Ao fazer isso, uma tela como a abaixo será mostrada e o processo de desinstalação será iniciado. O tempo varia de 15 segundos a um minuto.
+
+Imagem
+
+Vantagens e perigos de remover os apps padrão do Windows 10
+
+Não existe uma vantagem no desempenho do computador pela remoção de tais programas. Inclusive não recomendamos a remoção de alguns, como é o caso da calculadora, do aplicativo Xbox e da Loja. Caso queira remover também a nova calculadora do Windows, veja como adicionar a calculadora clássica neste tutorial. Já ao remover o aplicativo Xbox você perderá a função Game DVR, que permite gravar vídeos dos jogos e tirar fotos.
+
+O aplicativo Loja não deve ser removido sob hipótese alguma. Apesar de ser possível removê-lo, reinstalá-lo é possível apenas com uma nova instalação do Windows 10 ou com uma restauração do sistema. Vale lembrar também que, ao remover o aplicativo Fotos, você deverá definir um novo aplicativo padrão para imagens. Saiba como fazer isso no Windows 10
+
+Esta é Lista completa de comandos no Powershell para remover os apps padrão do Windows 10. Copie um por vez, cole na linha de comando e aperte Enter.
+
+3D Builder: Get-AppxPackage *3dbuilder* | Remove-AppxPackage
+
+Alarmes e relógios: Get-AppxPackage *windowsalarms* | Remove-AppxPackage
+
+Calculadora: Get-AppxPackage *windowscalculator* | Remove-AppxPackage
+
+Calendário e e-mail: Get-AppxPackage *windowscommunicationsapps* | Remove-AppxPackage
+
+Câmera: Get-AppxPackage *windowscamera* | Remove-AppxPackage
+
+Groove Música: Get-AppxPackage *zunemusic* | Remove-AppxPackage
+
+Mapas: Get-AppxPackage *windowsmaps* | Remove-AppxPackage
+
+Microsoft Solitaire Collection: Get-AppxPackage *solitairecollection* | Remove-AppxPackage
+
+Dinheiro: Get-AppxPackage *bingfinance* | Remove-AppxPackage
+
+Filmes e TV: Get-AppxPackage *zunevideo* | Remove-AppxPackage
+
+Notícias: Get-AppxPackage *bingnews* | Remove-AppxPackage
+
+OneNote: Get-AppxPackage *onenote* | Remove-AppxPackage
+
+Pessoas: Get-AppxPackage *people* | Remove-AppxPackage
+
+Fotos: Get-AppxPackage *photos* | Remove-AppxPackage
+
+Esportes: Get-AppxPackage *bingsports* | Remove-AppxPackage
+
+Gravador de Voz: Get-AppxPackage *soundrecorder* | Remove-AppxPackage
+
+Clima: Get-AppxPackage *bingweather* | Remove-AppxPackage
+
+Xbox: Get-AppxPackage *xboxapp* | Remove-AppxPackage
+
+Adquira o Office: Get-AppxPackage *officehub* | Remove-AppxPackage
+
+Adquira o Skype: Get-AppxPackage *skypeapp* | Remove-AppxPackage
+
+---------------------------------------------------------------------------
+
