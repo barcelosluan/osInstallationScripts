@@ -12,7 +12,7 @@ sudo apt purge -y \
   gnome-sound-recorder \
   hitori \
   gnome-klotski \
-  libreoffice \
+  libreoffice* \
   gnome-logs \
   lightsoff \
   gnome-mahjongg \
